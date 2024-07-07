@@ -1,0 +1,16 @@
+//How do you swap two numbers without using a third variable in Java?
+public class Main {
+    public static void main(String[] args) {
+
+        int a = 5;
+        int b = 10;
+
+        int sum = a+b;
+
+         a = sum-a;
+         b = sum -b;
+
+        System.out.println("a is:"+ a + "\nb is:"+b);
+
+    }
+}
